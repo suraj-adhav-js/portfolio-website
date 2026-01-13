@@ -13,15 +13,20 @@ const ContactInfos = ({ contactInfoList }: Props) => {
         return (
           <div key={item.label} className="flex m-0 gap-3 items-center ">
             <div className="gradint-border">
-            <div className="p-2 md:p-[5px] rounded-lg md:rounded-xl bg-dark-400">
-              <Icon className="text-base md:text-lg md-1 md:m-2 " />
+              <div className="p-2 md:p-1.25 rounded-lg md:rounded-xl bg-dark-400">
+                <div className="text-base md:text-lg md-1 md:m-2 ">
+                  <Icon />
+                </div>
+              </div>
             </div>
 
-            </div>
-          
             <div className="flex flex-col item-start">
-              <h4 className="text-sm capitalize text-iconmycolor">{item.label}</h4>
-              <a href={item.link} className="text-sm wrap-break-word">{item.content}</a>
+              <h4 className="text-sm capitalize text-iconmycolor">
+                {item.label}
+              </h4>
+              <a href={item.link} className="text-sm wrap-break-word">
+                {item.content}
+              </a>
             </div>
           </div>
         );
