@@ -3,7 +3,7 @@ import gameDiscovery from "../../assets/projects/gameDiscovery.webp";
 import portfolio from "../../assets/projects/portfolio.webp";
 import primeMumbai from "../../assets/projects/primeMumbai.webp";
 import BrassCopperParts from "../../assets/projects/brass-copper-parts.webp";
-import roadMapClone from "../../assets/projects/roadmapclone.webp";
+import roadMapClone from "../../assets/projects/roadMapClone.webp";
 import oldPortfolio from "../../assets/projects/surajadhav-old-portfolio.webp";
 
 const Portfolio = () => {
