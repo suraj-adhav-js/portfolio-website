@@ -21,7 +21,7 @@ const MainContent = ({ activeSection, activeSectionState }: Props) => {
           ></NavBar>
         </div>
       </div>
-      <div className="m-4 lg:mx-9 md:-mt-6">
+      <div className="m-4 mt-8.25 lg:mx-9 md:-mt-6">
         {activeSectionState === "about" && <About />}
         {activeSectionState === "resume" && <Resume />}
         {activeSectionState === "portfolio" && <Portfolio />}
